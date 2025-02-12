@@ -1,9 +1,9 @@
 "use client";
 import React, { useState, useMemo } from "react";
-import FilterDropdown from "./Filters";
-import Pagination from "./Pagination";
-import SearchBar from "./Search";
-import HeaderCell from "./HeaderCell";
+import FilterDropdown from "./filters";
+import Pagination from "./pagination";
+import SearchBar from "./search";
+import HeaderCell from "./header-cell";
 
 type ListProps = {
   data: any[];

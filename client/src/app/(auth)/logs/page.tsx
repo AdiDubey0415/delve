@@ -55,6 +55,7 @@ const LogsPage = () => {
         columns={logsColumns}
         searchOnFields={["message", "component"]}
         filterOnFields={["level", "component"]}
+        itemsPerPage={2}
       />
     </div>
   );
