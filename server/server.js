@@ -6,7 +6,7 @@ import checkRoutes from "./routes/checkRoutes.js";
 import logsRoutes from "./routes/logsRoutes.js";
 
 // Load environment variables
-dotenv.config();
+dotenv.config({ path: "./.env.local" });
 
 const app = express();
 

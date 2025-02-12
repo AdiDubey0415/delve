@@ -7,8 +7,6 @@ import {
 
 const router = express.Router();
 
-console.log("hereerererer");
-
 // Route for MFA Check
 router.post("/mfa", checkMFA);
 router.post("/rls", checkRLS);
